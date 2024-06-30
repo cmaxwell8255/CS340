@@ -1,1 +1,46 @@
 # CS340
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+
+About the Project/Project Title
+Grazioso Salvare needs a program that can quickly search for animals available for adoption at the shelter. The project team’s goal is to create this program using CRUD operations in Python. The program should be capable of searching for, updating, and deleting animals in the system as well as creating charts and graphs to analyze how many of what breed, age group, sex, etc. are in the shelter.
+Motivation
+The motivation for this project comes from the need to be able to quickly and efficiently search for dogs that are available for adoption by utilizing a user-friendly program. 
+Getting Started
+Follow the steps in Usage and Code Example to import, view, and update the shelter database.
+Installation Tools 
+•	Jupyter Notebook 
+•	MongoDB – used with Python scripts making it easier to use. Flexible, easily scalable.
+•	Python 
+•	Dash – used for building interactive dashboards that make the program user-friendly
+Usage and Code Example
+1.	Import the Austin Animal Center (AAC) database.
+2.	Create a username and password with READ/WRITE permissions. 
+3.	Confirm user was setup using mongosh and can access the database.
+4.	In the Python file, update the _init_function with the correct information for MongoClient. AnimalShelter.py
+Make sure the username and password match the user that was just created.
+5.	Create – insert the data for the record you want added to the system: 
+6.	Read – insert the data you are looking for to print results on the screen:
+7.	Update – insert the data you are looking for and the new data to update the record with:
+8.	Delete – call the delete function using the data you are looking for:
+9.	Make the necessary changes to your .ypnb file. See sample code below for creating a bar graph:
+Def update_graphs(viewData):
+    ###FIX ME ####
+    # add code for chart of your choice (e.g. pie chart) #
+    dff = pd.DataFrame.from_dict(viewData)
+        return [
+        dcc.Graph(
+           figure = px.bar(dff, x='breed')
+       )
+   ]
+Tests
+Summary
+	This project was completed by first importing the AAC file into MongoDB. Then I created a username and password giving the user read/write permission. Using Python, I created a CRUD program to create, read, update, and delete data from the AAC file. From there, I used an already written program with Dash framework to import an image for Grazioso Salvare and created tables, charts, maps, etc. to show the data to the user in an easy-to-read way.
+Challenges
+	I had challenges with my Python file connecting to MongoDB as well as applying the correct permissions to the username I created. 
+
+Contact
+Your name: Courtney Maxwell
