@@ -6,27 +6,33 @@ What do computer scientists do, and why does it matter? How would your work on t
 
 
 About the Project/Project Title
+
 Grazioso Salvare needs a program that can quickly search for animals available for adoption at the shelter. The project team’s goal is to create this program using CRUD operations in Python. The program should be capable of searching for, updating, and deleting animals in the system as well as creating charts and graphs to analyze how many of what breed, age group, sex, etc. are in the shelter.
+
 Motivation
 The motivation for this project comes from the need to be able to quickly and efficiently search for dogs that are available for adoption by utilizing a user-friendly program. 
+
 Getting Started
 Follow the steps in Usage and Code Example to import, view, and update the shelter database.
+
 Installation Tools 
 •	Jupyter Notebook 
 •	MongoDB – used with Python scripts making it easier to use. Flexible, easily scalable.
 •	Python 
 •	Dash – used for building interactive dashboards that make the program user-friendly
+
 Usage and Code Example
 1.	Import the Austin Animal Center (AAC) database.
 2.	Create a username and password with READ/WRITE permissions. 
 3.	Confirm user was setup using mongosh and can access the database.
 4.	In the Python file, update the _init_function with the correct information for MongoClient. AnimalShelter.py
-Make sure the username and password match the user that was just created.
-5.	Create – insert the data for the record you want added to the system: 
-6.	Read – insert the data you are looking for to print results on the screen:
-7.	Update – insert the data you are looking for and the new data to update the record with:
-8.	Delete – call the delete function using the data you are looking for:
-9.	Make the necessary changes to your .ypnb file. See sample code below for creating a bar graph:
+5.   	Make sure the username and password match the user that was just created.
+6.	Create – insert the data for the record you want added to the system: 
+7.	Read – insert the data you are looking for to print results on the screen:
+8.	Update – insert the data you are looking for and the new data to update the record with:
+9.	Delete – call the delete function using the data you are looking for:
+10.	Make the necessary changes to your .ypnb file. See sample code below for creating a bar graph:
+
 Def update_graphs(viewData):
     ###FIX ME ####
     # add code for chart of your choice (e.g. pie chart) #
@@ -37,6 +43,7 @@ Def update_graphs(viewData):
        )
    ]
 Tests
+
 Summary
 	This project was completed by first importing the AAC file into MongoDB. Then I created a username and password giving the user read/write permission. Using Python, I created a CRUD program to create, read, update, and delete data from the AAC file. From there, I used an already written program with Dash framework to import an image for Grazioso Salvare and created tables, charts, maps, etc. to show the data to the user in an easy-to-read way.
 Challenges
