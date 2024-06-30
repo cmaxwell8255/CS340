@@ -2,10 +2,15 @@
 
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
+Writing programs that are maintainable, readable, and adaptable depends on what functions have been added, what order the code and comments are in, and how well the code has been updated. The right functions for a program should be reusable to avoid writing new code every time and for easy maintenance. The order is important because anyone who looks at the code in the future should be able to read it and know what it says. I can use this code in the future for website design or other projects at work or school.
+
 How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+Working in mainframes I have already learned not to present a problem without a solution. For any programming issue, I look at the problem and determine a potential solution. I then look at what tools or software I will need and refer back to any documentation we already have for it. I have never used the tools we used for this project so the approach was different from previous courses where we used tools and software I'm more familiar with.
 
 What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 
+Computer scientists keep this world running by creating, maintaining, and updating programs. Without computer scientists we would not have video games, smartphones, POS systems, or other forms of technology that we use every day. At the company I already work at, we use graphs and charts every day so the project for this course really helped me understand what our system programmers have to do to simplify what I see.
 
 About the Project/Project Title
 
